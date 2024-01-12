@@ -10,60 +10,66 @@
         <link rel="stylesheet" href="style.css">
         <title>Product Landing page</title>
     </head>
-    <body>
-        <div class="header">
-            <div class="top">
-                <div class="left">
+    <body class="flex column">
+        <div class="flex column s-b header">
+            <div class="flex s-b top">
+                <div class="flex hero-bold left">
                     Header Logo
                 </div>
-                <div class="right">
-                    <ul>
-                        <li>Header link-1</li>
-                        <li>Header link-2</li>
-                        <li>Header link-3</li>
-                    </ul>
-                </div>
+                <ul class=" flex right">
+                    <li>Header link-1</li>
+                    <li>Header link-2</li>
+                    <li>Header link-3</li>
+                </ul>
             </div>
-            <div class="bottom">
-                <div class="left">
-                    <div class="title">This website is awesome</div>
+            <div class="flex s-b bottom">
+                <div class="flex column left">
+                    <div class="hero-bold title">This website is awesome</div>
                     <div class="description">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</div>
-                    <div class="button">Sign up</div>
+                    <div class="hero-bold button">Sign up</div>
                 </div>
                 <div class="right">
                     <img src="" alt="This is a placeholder for an image">
                 </div>
             </div>
         </div>
-        <div class="main">
-            <div class="features">
-                <h2>Some random information.</h2>
-                <div class="feature">
-                    <div class="feature-image"></div>
-                    <p class="description">this is some subtext under an illustration or an image</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-image"></div>
-                    <p class="description">this is some subtext under an illustration or an image</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-image"></div>
-                    <p class="description">this is some subtext under an illustration or an image</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-image"></div>
-                    <p class="description">this is some subtext under an illustration or an image</p>
+        <div class="flex column center">
+            <div class="flex column center features">
+                <div class="hero-bold features-title">Some random information.</div>
+                <div class="flex center features-container">
+                    <div class="flex column feature">
+                        <div class="feature-image"></div>
+                        <p class="description">this is some subtext under an illustration or an image</p>
+                    </div>
+                    <div class="flex column feature">
+                        <div class="feature-image"></div>
+                        <p class="description">this is some subtext under an illustration or an image</p>
+                    </div>
+                    <div class="flex column feature">
+                        <div class="feature-image"></div>
+                        <p class="description">this is some subtext under an illustration or an image</p>
+                    </div>
+                    <div class="flex column feature">
+                        <div class="feature-image"></div>
+                        <p class="description">this is some subtext under an illustration or an image</p>
+                    </div>
                 </div>
             </div>
-            <div class="quote-container">
+            <div class="flex column center quote-container">
                 <div class="quote">
                     This is an inspiring quote or a testimonial from a customer. Maybe it's just filling space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
                 </div>
-                <div class="quote-author"></div>
+                <div class="hero-bold quote-author">-Thor, God of Thunder</div>
             </div>
-            <div class="action"></div>
+            <div class="flex s-b action">
+                <div class="flex column left">
+                    <div class="hero-bold title">Call to action! It's time!</div>
+                    <p>Sign up for our product by clicking that button over there!</p>
+                </div>
+                <div class="hero-bold button">Sign up</div>
+            </div>
         </div>
-        <div class="footer">
+        <div class="flex center footer">
             <p>Copyright &copy; Neil Taison Rigaud</p>
         </div>
     </body>
